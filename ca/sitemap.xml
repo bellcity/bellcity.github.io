@@ -3,26 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/ca/authors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/authors/"
-                />
-  </url>
-  
-  <url>
     <loc>/ca/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,7 +23,263 @@
   </url>
   
   <url>
+    <loc>/ca/post/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/post/writing-technical-content/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/writing-technical-content/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/post/writing-technical-content/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/post/writing-technical-content/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/authors/admin/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/authors/admin/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/authors/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/post/jupyter/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/jupyter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/post/jupyter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/post/jupyter/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/tags/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/deep-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/deep-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/tags/deep-learning/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/tags/demo/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/demo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/demo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/tags/demo/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/project/external-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/project/external-project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/project/external-project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/project/external-project/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/project/internal-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/project/internal-project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/project/internal-project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/project/internal-project/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/tags/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/tags/academic/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/academic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/tags/academic/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/post/getting-started/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/getting-started/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/post/getting-started/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/post/getting-started/"
+                />
+  </url>
+  
+  <url>
     <loc>/ca/categories/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -56,6 +294,26 @@
                 rel="alternate"
                 hreflang="ca"
                 href="/ca/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ca/categories/demo/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/demo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/categories/demo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/categories/demo/"
                 />
   </url>
   
@@ -75,25 +333,6 @@
                 rel="alternate"
                 hreflang="ca"
                 href="/ca/publication_types/"
-                />
-  </url>
-  
-  <url>
-    <loc>/ca/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/tags/"
                 />
   </url>
   
