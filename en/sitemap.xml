@@ -307,11 +307,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/categories/demo/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="/en/categories/demo/"
                 />
