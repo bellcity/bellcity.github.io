@@ -6,13 +6,13 @@
     <loc>/en/authors/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/authors/"
+                hreflang="ca"
+                href="/ca/authors/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ca"
-                href="/ca/authors/"
+                hreflang="es"
+                href="/authors/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -25,13 +25,13 @@
     <loc>/en/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/"
+                hreflang="ca"
+                href="/ca/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ca"
-                href="/ca/"
+                hreflang="es"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -44,13 +44,13 @@
     <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/categories/"
+                hreflang="ca"
+                href="/ca/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ca"
-                href="/ca/categories/"
+                hreflang="es"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -63,13 +63,13 @@
     <loc>/en/publication_types/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/publication_types/"
+                hreflang="ca"
+                href="/ca/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ca"
-                href="/ca/publication_types/"
+                hreflang="es"
+                href="/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -82,13 +82,13 @@
     <loc>/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/tags/"
+                hreflang="ca"
+                href="/ca/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ca"
-                href="/ca/tags/"
+                hreflang="es"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
