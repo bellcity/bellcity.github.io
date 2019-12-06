@@ -2,8 +2,8 @@
   "name": "Bell City Grup",
   "short_name": "Bell City Grup",
   "lang": "es-es",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
+  "theme_color": "#000",
+  "background_color": "#000",
   "icons": [{
     "src": "../img/icon-192.png",
     "sizes": "192x192",
