@@ -243,41 +243,6 @@
   </url>
   
   <url>
-    <loc>/en/tags/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/tags/academic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/academic/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/post/getting-started/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/categories/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -298,17 +263,62 @@
   </url>
   
   <url>
-    <loc>/en/categories/demo/</loc>
+    <loc>/en/categories/depequenos/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
-                href="/ca/categories/demo/"
+                href="/ca/categories/depequenos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/categories/depequenos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/demo/"
+                href="/en/categories/depequenos/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/textiles/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/tags/textiles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/textiles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/textiles/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/post/getting-started/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/post/getting-started/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/post/getting-started/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/getting-started/"
                 />
   </url>
   
