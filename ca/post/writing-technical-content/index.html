@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.6.2">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
 
   
 
@@ -48,6 +48,12 @@ Examples Code Academic supports a Markdown extension for highlighting code synta
   
   
   
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
@@ -73,6 +79,111 @@ Examples Code Academic supports a Markdown extension for highlighting code synta
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
     
 
   
@@ -230,13 +341,14 @@ Examples Code Academic supports a Markdown extension for highlighting code synta
 
 
   
+
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-    
-    
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/ca"><img src="/img/bcg_logo_50px.jpg" alt="Bell City Grup"></a>
+    </div>
     
 
     
@@ -244,6 +356,12 @@ Examples Code Academic supports a Markdown extension for highlighting code synta
             data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegació">
     <span><i class="fas fa-bars"></i></span>
     </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/ca"><img src="/img/bcg_logo_50px.jpg" alt="Bell City Grup"></a>
+    </div>
     
 
     
@@ -516,94 +634,87 @@ Examples Code Academic supports a Markdown extension for highlighting code synta
 
     <div class="article-style">
       <p>Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.</p>
-
 <p><strong>Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.</strong></p>
-
 <p>On this page, you'll find some examples of the types of technical content that can be rendered with Academic.</p>
-
 <h2 id="examples">Examples</h2>
-
 <h3 id="code">Code</h3>
-
 <p>Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the <code>highlight</code> option in your <code>config/_default/params.toml</code> file.</p>
 <pre><code>```python
 import pandas as pd
-data = pd.read_csv("data.csv")
+data = pd.read_csv(&quot;data.csv&quot;)
 data.head()
-```</code></pre>
+```
+</code></pre>
 <p>renders as</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
-data <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">data.csv</span><span style="color:#e6db74">&#34;</span>)
-data<span style="color:#f92672">.</span>head()</code></pre></div>
+<pre><code class="language-python">import pandas as pd
+data = pd.read_csv(&quot;data.csv&quot;)
+data.head()
+</code></pre>
 <h3 id="math">Math</h3>
-
 <p>Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the <code>math</code> option in your <code>config/_default/params.toml</code> file and adding <code>markup: mmark</code> to your page front matter.</p>
-
 <p>To render <em>inline</em> or <em>block</em> math, wrap your LaTeX math with <code>$$...$$</code>.</p>
-
 <p>Example <strong>math block</strong>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tex" data-lang="tex"><span style="color:#e6db74">$$</span>\gamma_{n} <span style="color:#f92672">=</span> \frac{ 
-\left | \left <span style="color:#f92672">(</span>\mathbf x_{n} <span style="color:#f92672">-</span> \mathbf x_{n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>} \right <span style="color:#f92672">)</span>^T 
-\left <span style="color:#f92672">[</span>\nabla F <span style="color:#f92672">(</span>\mathbf x_{n}<span style="color:#f92672">)</span> <span style="color:#f92672">-</span> \nabla F <span style="color:#f92672">(</span>\mathbf x_{n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>}<span style="color:#f92672">)</span> \right <span style="color:#f92672">]</span> \right |}
-{\left \|\nabla F<span style="color:#f92672">(</span>\mathbf{x}_{n}<span style="color:#f92672">)</span> <span style="color:#f92672">-</span> \nabla F<span style="color:#f92672">(</span>\mathbf{x}_{n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>}<span style="color:#f92672">)</span> \right \|^<span style="color:#ae81ff">2</span>}<span style="color:#e6db74">$$</span></code></pre></div>
+<pre><code class="language-tex">$$\gamma_{n} = \frac{ 
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+</code></pre>
 <p>renders as</p>
-
-<p><span  class="math">\[\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}\]</span></p>
-
-<p>Example <strong>inline math</strong> <code>$$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$</code> renders as <span  class="math">\(\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2\)</span> .</p>
-
+<p>$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$</p>
+<p>Example <strong>inline math</strong> <code>$$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$</code> renders as $$\left |\nabla F(\mathbf{x}<em>{n}) - \nabla F(\mathbf{x}</em>{n-1}) \right |^2$$ .</p>
 <p>Example <strong>multi-line math</strong> using the <code>\\</code> math linebreak:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tex" data-lang="tex"><span style="color:#e6db74">$$</span>f<span style="color:#f92672">(</span>k;p_<span style="color:#ae81ff">0</span>^<span style="color:#f92672">*</span><span style="color:#f92672">)</span> <span style="color:#f92672">=</span> \begin{cases} p_<span style="color:#ae81ff">0</span>^<span style="color:#f92672">*</span> &amp; \text{if }k<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, \\
-<span style="color:#ae81ff">1</span><span style="color:#f92672">-</span>p_<span style="color:#ae81ff">0</span>^<span style="color:#f92672">*</span> &amp; \text {if }k<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>.\end{cases}<span style="color:#e6db74">$$</span></code></pre></div>
+<pre><code class="language-tex">$$f(k;p_0^*) = \begin{cases} p_0^* &amp; \text{if }k=1, \\
+1-p_0^* &amp; \text {if }k=0.\end{cases}$$
+</code></pre>
 <p>renders as</p>
-
-<p><span  class="math">\[f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\
-1-p_0^* & \text {if }k=0.\end{cases}\]</span></p>
-
+<p>$$f(k;p_0^*) = \begin{cases} p_0^* &amp; \text{if }k=1, \<br>
+1-p_0^* &amp; \text {if }k=0.\end{cases}$$</p>
 <h3 id="diagrams">Diagrams</h3>
-
 <p>Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the <code>diagram</code> option in your <code>config/_default/params.toml</code> file or by adding <code>diagram: true</code> to your page front matter.</p>
-
 <p>An example <strong>flowchart</strong>:</p>
 <pre><code>```mermaid
 graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```</code></pre>
+  A--&gt;B;
+  A--&gt;C;
+  B--&gt;D;
+  C--&gt;D;
+```
+</code></pre>
 <p>renders as</p>
-<pre><code class="language-mermaid" data-lang="mermaid">graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;</code></pre>
+<pre><code class="language-mermaid">graph TD;
+  A--&gt;B;
+  A--&gt;C;
+  B--&gt;D;
+  C--&gt;D;
+</code></pre>
 <p>An example <strong>sequence diagram</strong>:</p>
 <pre><code>```mermaid
 sequenceDiagram
   participant Alice
   participant Bob
-  Alice->John: Hello John, how are you?
+  Alice-&gt;John: Hello John, how are you?
   loop Healthcheck
-      John->John: Fight against hypochondria
+      John-&gt;John: Fight against hypochondria
   end
-  Note right of John: Rational thoughts <br/>prevail...
-  John-->Alice: Great!
-  John->Bob: How about you?
-  Bob-->John: Jolly good!
-```</code></pre>
+  Note right of John: Rational thoughts &lt;br/&gt;prevail...
+  John--&gt;Alice: Great!
+  John-&gt;Bob: How about you?
+  Bob--&gt;John: Jolly good!
+```
+</code></pre>
 <p>renders as</p>
-<pre><code class="language-mermaid" data-lang="mermaid">sequenceDiagram
+<pre><code class="language-mermaid">sequenceDiagram
   participant Alice
   participant Bob
-  Alice->John: Hello John, how are you?
+  Alice-&gt;John: Hello John, how are you?
   loop Healthcheck
-      John->John: Fight against hypochondria
+      John-&gt;John: Fight against hypochondria
   end
-  Note right of John: Rational thoughts <br/>prevail...
-  John-->Alice: Great!
-  John->Bob: How about you?
-  Bob-->John: Jolly good!</code></pre>
+  Note right of John: Rational thoughts &lt;br/&gt;prevail...
+  John--&gt;Alice: Great!
+  John-&gt;Bob: How about you?
+  Bob--&gt;John: Jolly good!
+</code></pre>
 <p>An example <strong>Gantt diagram</strong>:</p>
 <pre><code>```mermaid
 gantt
@@ -614,39 +725,38 @@ gantt
   section Another
   Task in sec      :2014-01-12  , 12d
   another task      : 24d
-```</code></pre>
+```
+</code></pre>
 <p>renders as</p>
-<pre><code class="language-mermaid" data-lang="mermaid">gantt
+<pre><code class="language-mermaid">gantt
   dateFormat  YYYY-MM-DD
   section Section
   A task           :a1, 2014-01-01, 30d
   Another task     :after a1  , 20d
   section Another
   Task in sec      :2014-01-12  , 12d
-  another task      : 24d</code></pre>
+  another task      : 24d
+</code></pre>
 <h3 id="todo-lists">Todo lists</h3>
-
 <p>You can even write your todo lists in Academic too:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">- </span><span style="color:#66d9ef">[x]</span> Write math example
-<span style="color:#66d9ef">- </span><span style="color:#66d9ef">[x]</span> Write diagram example
-- [ ] Do something else</code></pre></div>
+<pre><code class="language-markdown">- [x] Write math example
+- [x] Write diagram example
+- [ ] Do something else
+</code></pre>
 <p>renders as</p>
-
 <ul>
-<li><input type="checkbox" checked="" disabled=""> Write math example</li>
-<li><input type="checkbox" checked="" disabled=""> Write diagram example</li>
-<li><input type="checkbox" disabled=""> Do something else</li>
+<li><input checked="" disabled="" type="checkbox">Write math example</li>
+<li><input checked="" disabled="" type="checkbox">Write diagram example</li>
+<li><input disabled="" type="checkbox">Do something else</li>
 </ul>
-
 <h3 id="tables">Tables</h3>
-
 <p>Represent your data in tables:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">| First Header  | Second Header |
+<pre><code class="language-markdown">| First Header  | Second Header |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |</code></pre></div>
+| Content Cell  | Content Cell  |
+</code></pre>
 <p>renders as</p>
-
 <table>
 <thead>
 <tr>
@@ -654,30 +764,23 @@ gantt
 <th>Second Header</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Content Cell</td>
 <td>Content Cell</td>
 </tr>
-
 <tr>
 <td>Content Cell</td>
 <td>Content Cell</td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="asides">Asides</h3>
-
 <p>Academic supports a Markdown extension for asides, also referred to as <em>notices</em> or <em>hints</em>. By prefixing a paragraph with <code>A&gt;</code>, it will render as an aside. You can enable this feature by adding <code>markup: mmark</code> to your page front matter, or alternatively using the <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts"><em>Alert</em> shortcode</a>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">A&gt; A Markdown aside is useful for displaying notices, hints, or definitions to your readers.</code></pre></div>
+<pre><code class="language-markdown">A&gt; A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+</code></pre>
 <p>renders as</p>
-
-<aside>
-<p>A Markdown aside is useful for displaying notices, hints, or definitions to your readers.</p>
-</aside>
-
+<p>A&gt; A Markdown aside is useful for displaying notices, hints, or definitions to your readers.</p>
 <h3 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌</h3>
 
     </div>
@@ -692,19 +795,6 @@ gantt
 
 <div class="share-box" aria-hidden="true">
   <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=/ca/post/writing-technical-content/&amp;text=Writing%20technical%20content%20in%20Academic" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
     
       
       
@@ -729,19 +819,6 @@ gantt
       <li>
         <a href="mailto:?subject=Writing%20technical%20content%20in%20Academic&amp;body=/ca/post/writing-technical-content/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/ca/post/writing-technical-content/&amp;title=Writing%20technical%20content%20in%20Academic" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
     
@@ -814,7 +891,7 @@ gantt
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
       
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js" integrity="sha256-vOIuDSYDirTfyr+S2MjFnhOz6Rgiz4ODFAHATG0rFxw=" crossorigin="anonymous" title="mermaid"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.3/mermaid.min.js" integrity="" crossorigin="anonymous" title="mermaid"></script>
       
 
       
@@ -905,7 +982,7 @@ gantt
     
     
     
-    <script src="/js/academic.min.e2e0b27355a8480c351a9f144da48684.js"></script>
+    <script src="/js/academic.min.2c343a9ff99facd43f0c7dd6e075aa5e.js"></script>
 
     
 
