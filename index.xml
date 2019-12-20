@@ -170,6 +170,21 @@ gantt
     </item>
     
     <item>
+      <title>Textiles</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;renovar-los-textiles&#34;&gt;&lt;strong&gt;Renovar los textiles!!&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Los textiles de la vivienda son una parte muy importante de la decoración,
+pueden cambiar completamente la imagen de una estancia.&lt;/p&gt;
+&lt;h2 id=&#34;renovar-las-cortinas&#34;&gt;&lt;strong&gt;RENOVAR LAS CORTINAS&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Un cambio muy eficaz para dar un nuevo aspecto a la casa es cambiar las cortinas.
+Podemos aprovechar para revisar la instalación, las cortinas deben colocarse lo más altas posible para dar sensación de amplitud y si no lo hemos hecho desde el principio, dejar que la barra de cortina sobresalga unos 15cm a cada lado de la ventana para que cuando las cortinas estén abiertas no tapen parte de la luz. Un cambio que parece insignificante no lo es, al cambiar las cortinas, todo cambiará.
+Ten en cuenta el tipo de textil elegido ya que marcará el ambiente dentro de la habitación; algodón o lino son telas frescas para ambientes naturales; gasa o seda son telas más románticas, que quedan muy bien en dormitorios; terciopelo y jacquard son sofisticadas, encajan bien en salones y comedores más elegantes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Display Jupyter Notebooks with Academic</title>
       <link>/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
@@ -231,32 +246,6 @@ date: 2019-09-01
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Textiles</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Renovar los textiles!!
-Los textiles de la vivienda son una parte muy importante de la decoración,
-pueden cambiar completamente la imagen de una estancia.&lt;/p&gt;
-&lt;h2 id=&#34;renovar-las-cortinas&#34;&gt;&lt;strong&gt;RENOVAR LAS CORTINAS&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Un cambio muy eficaz para dar un nuevo aspecto a la casa es cambiar las cortinas.
-Podemos aprovechar para revisar la instalación, las cortinas deben colocarse lo más
-altas posible para dar sensación de amplitud y si no lo hemos hecho desde el principio,
-dejar que la barra de cortina sobresalga unos 15cm a cada lado de la
-ventana
-para que cuando las cortinas estén abiertas no tapen parte de la luz. Un
-cambio que parece insignificante no lo es, al cambiar las cortinas, todo
-cambiará.
-Ten en cuenta el tipo de textil elegido ya que marcará el ambiente dentro de
-la habitación; algodón o lino son telas frescas para ambientes naturales;
-gasa o seda son telas más románticas, que quedan muy bien en dormitorios;
-terciopelo y jacquard son sofisticadas, encajan bien en salones y comedores
-más elegantes.&lt;/p&gt;
 </description>
     </item>
     
