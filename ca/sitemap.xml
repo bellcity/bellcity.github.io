@@ -72,11 +72,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/authors/admin/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ca"
                 href="/ca/authors/admin/"
                 />
@@ -109,11 +104,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/post/jupyter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/post/jupyter/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -284,6 +274,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/tags/textiles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/textiles/"
                 />
     <xhtml:link
                 rel="alternate"
