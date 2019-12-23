@@ -133,86 +133,6 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>/categories/depequenos/</loc>
-    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/categories/depequenos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/depequenos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/categories/depequenos/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/textiles/</loc>
-    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/tags/textiles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/textiles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/tags/textiles/"
-                />
-  </url>
-  
-  <url>
-    <loc>/post/getting-started/</loc>
-    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/post/getting-started/"
-                />
-  </url>
-  
-  <url>
     <loc>/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -329,6 +249,35 @@
                 rel="alternate"
                 hreflang="es"
                 href="/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>/post/cuadros-en-casa/cuadros-en-casa/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/textiles/a-renovar-los-textiles/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/categories/"
                 />
   </url>
   

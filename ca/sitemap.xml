@@ -272,11 +272,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/categories/depequenos/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ca"
                 href="/ca/categories/depequenos/"
                 />
@@ -292,11 +287,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="/tags/textiles/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ca"
                 href="/ca/tags/textiles/"
                 />
@@ -309,11 +299,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/post/getting-started/"
                 />
     <xhtml:link
                 rel="alternate"
