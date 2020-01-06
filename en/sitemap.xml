@@ -4,7 +4,7 @@
   
   <url>
     <loc>/en/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
@@ -24,7 +24,7 @@
   
   <url>
     <loc>/en/post/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
@@ -43,72 +43,142 @@
   </url>
   
   <url>
-    <loc>/en/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <loc>/en/tags/</loc>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
-                href="/ca/post/writing-technical-content/"
+                href="/ca/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/post/writing-technical-content/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/writing-technical-content/"
+                href="/en/tags/"
                 />
   </url>
   
   <url>
-    <loc>/en/authors/admin/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <loc>/en/tags/textiles/</loc>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
-                href="/ca/authors/admin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/authors/admin/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/authors/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/authors/"
+                href="/ca/tags/textiles/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/authors/"
+                href="/tags/textiles/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/"
+                href="/en/tags/textiles/"
                 />
   </url>
   
   <url>
-    <loc>/en/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <loc>/en/post/textiles/</loc>
+    <lastmod>2019-12-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
-                href="/ca/post/jupyter/"
+                href="/ca/post/textiles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/post/textiles/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/jupyter/"
+                href="/en/post/textiles/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/post/cuadros-en-casa/</loc>
+    <lastmod>2019-12-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/post/cuadros-en-casa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/post/cuadros-en-casa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/cuadros-en-casa/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/decoracion/</loc>
+    <lastmod>2019-12-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/tags/decoracion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/decoracion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/decoracion/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/pintura/</loc>
+    <lastmod>2019-12-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/tags/pintura/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/pintura/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/pintura/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/post/un-toque-de-color/</loc>
+    <lastmod>2019-12-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/post/un-toque-de-color/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/post/un-toque-de-color/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/un-toque-de-color/"
                 />
   </url>
   
@@ -213,28 +283,26 @@
   </url>
   
   <url>
-    <loc>/en/tags/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <loc>/en/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
-                href="/ca/tags/"
+                href="/ca/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/tags/"
+                href="/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="/en/authors/"
                 />
   </url>
   
   <url>
     <loc>/en/categories/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
@@ -249,56 +317,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/categories/depequenos/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/categories/depequenos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/depequenos/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/textiles/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/tags/textiles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/tags/textiles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/textiles/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="/ca/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/post/getting-started/"
                 />
   </url>
   

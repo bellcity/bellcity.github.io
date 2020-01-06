@@ -5,12 +5,36 @@
     <link>/en/tags/</link>
       <atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>© 2016-2020 Bell City Grup S.L.</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>© 2016-2020 Bell City Grup S.L.</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/bcg_logo.jpg</url>
       <title>Tags</title>
       <link>/en/tags/</link>
     </image>
+    
+    <item>
+      <title>Textiles</title>
+      <link>/en/tags/textiles/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/en/tags/textiles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoracion</title>
+      <link>/en/tags/decoracion/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/en/tags/decoracion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pintura</title>
+      <link>/en/tags/pintura/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/en/tags/pintura/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep Learning</title>
@@ -25,14 +49,6 @@
       <link>/en/tags/demo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>/en/tags/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Textiles</title>
-      <link>/en/tags/textiles/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/en/tags/textiles/</guid>
       <description></description>
     </item>
     

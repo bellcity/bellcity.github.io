@@ -5,7 +5,7 @@
     <link>/en/post/</link>
       <atom:link href="/en/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>© 2016-2020 Bell City Grup S.L.</copyright><lastBuildDate>Fri, 12 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en</language><copyright>© 2016-2020 Bell City Grup S.L.</copyright><lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/bcg_logo.jpg</url>
       <title>Posts</title>
@@ -13,229 +13,84 @@
     </image>
     
     <item>
-      <title>Writing technical content in Academic</title>
-      <link>/en/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/en/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&#39;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file and adding &lt;code&gt;markup: mmark&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$$...$$&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$&lt;/code&gt; renders as $$\left |\nabla F(\mathbf{x}&lt;em&gt;{n}) - \nabla F(\mathbf{x}&lt;/em&gt;{n-1}) \right |^2$$ .&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \&lt;br&gt;
-1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD;
-  A--&amp;gt;B;
-  A--&amp;gt;C;
-  B--&amp;gt;D;
-  C--&amp;gt;D;
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD;
-  A--&amp;gt;B;
-  A--&amp;gt;C;
-  B--&amp;gt;D;
-  C--&amp;gt;D;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-  participant Alice
-  participant Bob
-  Alice-&amp;gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&amp;gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
-  John--&amp;gt;Alice: Great!
-  John-&amp;gt;Bob: How about you?
-  Bob--&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-  participant Alice
-  participant Bob
-  Alice-&amp;gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&amp;gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
-  John--&amp;gt;Alice: Great!
-  John-&amp;gt;Bob: How about you?
-  Bob--&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-  dateFormat  YYYY-MM-DD
-  section Section
-  A task           :a1, 2014-01-01, 30d
-  Another task     :after a1  , 20d
-  section Another
-  Task in sec      :2014-01-12  , 12d
-  another task      : 24d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-  dateFormat  YYYY-MM-DD
-  section Section
-  A task           :a1, 2014-01-01, 30d
-  Another task     :after a1  , 20d
-  section Another
-  Task in sec      :2014-01-12  , 12d
-  another task      : 24d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Do something else&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for asides, also referred to as &lt;em&gt;notices&lt;/em&gt; or &lt;em&gt;hints&lt;/em&gt;. By prefixing a paragraph with &lt;code&gt;A&amp;gt;&lt;/code&gt;, it will render as an aside. You can enable this feature by adding &lt;code&gt;markup: mmark&lt;/code&gt; to your page front matter, or alternatively using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34;&gt;&lt;em&gt;Alert&lt;/em&gt; shortcode&lt;/a&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;A&amp;gt; A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;A&amp;gt; A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/p&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/en/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/en/post/jupyter/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
-
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&#39;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Textiles</title>
-      <link>/en/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/en/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Renovar los textiles!!
-Los textiles de la vivienda son una parte muy importante de la decoración,
-pueden cambiar completamente la imagen de una estancia.&lt;/p&gt;
-&lt;h2 id=&#34;renovar-las-cortinas&#34;&gt;&lt;strong&gt;RENOVAR LAS CORTINAS&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Un cambio muy eficaz para dar un nuevo aspecto a la casa es cambiar las cortinas.
-Podemos aprovechar para revisar la instalación, las cortinas deben colocarse lo más
-altas posible para dar sensación de amplitud y si no lo hemos hecho desde el principio,
-dejar que la barra de cortina sobresalga unos 15cm a cada lado de la
-ventana
-para que cuando las cortinas estén abiertas no tapen parte de la luz. Un
-cambio que parece insignificante no lo es, al cambiar las cortinas, todo
-cambiará.
-Ten en cuenta el tipo de textil elegido ya que marcará el ambiente dentro de
-la habitación; algodón o lino son telas frescas para ambientes naturales;
-gasa o seda son telas más románticas, que quedan muy bien en dormitorios;
-terciopelo y jacquard son sofisticadas, encajan bien en salones y comedores
-más elegantes.&lt;/p&gt;
+      <link>/en/post/textiles/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/en/post/textiles/</guid>
+      <description>&lt;h2 id=&#34;a-renovar-los-textiles&#34;&gt;&lt;strong&gt;A RENOVAR LOS TEXTILES!!&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Los textiles de la vivienda son una parte muy importante de la decoración, pueden cambiar completamente la imagen de una estancia.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CAMBIA LAS CORTINAS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Un cambio muy eficaz para dar un nuevo aspecto a la casa es cambiar las &lt;a href=&#34;https://www.labotigueta.es/&#34;&gt;cortinas&lt;/a&gt;. Podemos aprovechar para revisar la instalación, las cortinas deben colocarse lo más altas posible para dar sensación de amplitud y si no lo hemos hecho desde el principio, dejar que la barra de cortina sobresalga unos 15cm a cada lado de la ventana para que cuando las cortinas estén abiertas no tapen la entrada de luz.&lt;/p&gt;
+&lt;p&gt;Ten en cuenta el tipo de textil elegido ya que marcará el ambiente dentro de la habitación; algodón o lino son telas frescas para ambientes naturales; gasa o seda son telas más románticas, que quedan muy bien en dormitorios; terciopelo y jacquard son sofisticadas, encajan bien en salones y comedores más elegantes.&lt;/p&gt;
+&lt;p&gt;Depende del estilo podemos sustituir las cortinas tradicionales por enrollables, panel japonés, plegables o venecianas logrando un ambiente más actual. El tejido Screen es el más utilizado ya que mejora la eficiencia energética pero también se utilizan tejidos opacos si queremos mantener la oscuridad y translúcidos para mantener la privacidad sin perder la entrada de luz.&lt;/p&gt;
+&lt;p&gt;Las &lt;a href=&#34;https://www.cortinas-solart.com/&#34;&gt;cortinas enrollables&lt;/a&gt; pueden ser de accionamiento manual o motorizado ,con pulsador o mando a distancia.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./cortinas_pasillo.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ESTRENA SOFÁ&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Las &lt;a href=&#34;https://gancedo.com&#34;&gt;tapicerías&lt;/a&gt; marcan el estilo decorativo, por eso es importante acertar en su elección: lisas, estampadas, oscuras o claras.
+Renueva las fundas de los sofás y parecerán nuevos sin cambiarlos. Confecciona la funda a medida con telas resistentes, especiales para tapizar, que soporten mejor el desgaste y resulten más fáciles de limpiar.
+Toma bien las medidas y ajusta las fundas con cintas o velcro.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RENUEVA LOS COMPLEMENTOS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Si no quieres cambiar las fundas del sofá, cambia el decorado. Con una colección de &lt;a href=&#34;https://calmahouse.com/es/&#34;&gt;cojines&lt;/a&gt;, que puedes intercambiar cada día, tendrás para elegir. Combina los estampados y los lisos, cuadrados, rectangulares o redondos de diferentes tamaños, pero siempre de tamaño estándar y siguiendo una paleta cromática.
+Siempre que quieras darle un nuevo aire al sofá del salón basta con cambiar los cojines por una selección coordinada y rematar con un plaid o mantas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./cojines.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GANA CALIDEZ CON ALFOMBRAS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Al igual que las paredes, el suelo de las habitaciones nos crea el ambiente y una alfombra es el complemento ideal para crear un espacio renovado, aportando calidez y confort.
+Hay que medir bien el espacio a cubrir y asegurarnos de que englobe a todo el mobiliario de la zona. Es importante que al menos las patas delanteras de los sofás y las butacas pisen la alfombra y, en la zona del comedor, las sillas deben permanecer siempre dentro de ella.
+Invierte en una alfombra de mucha calidad , de lana o seda tipo &lt;a href=&#34;https://www.expoalfombrairan.com/&#34;&gt;oriental&lt;/a&gt; o de yute; también puedes actualizar una alfombra que ya tengas con un ribete en un tono más intenso. Antes de elegirla, piensa si quieres que se convierta en una &lt;a href=&#34;https://nanimarquina.com/es/&#34;&gt;pieza protagonista&lt;/a&gt;, con un diseño  marcado que predomine y de estilo clásico o si prefieres que se vean integradas en el conjunto, con acabado liso y preferiblemente de colores neutros
+En cuanto a los colores, depende del efecto que quieras conseguir
+Si el suelo es claro, algo más intensa y si es oscuro, más clara. Aunque no es necesario contrastar la alfombra con el suelo. Para ganar continuidad visual, podemos utilizar tonos que se asemejen al color del suelo o decantarnos por blancos rotos o grises perla”.&lt;/p&gt;
+&lt;p&gt;Renovando tu alfombra, tus cojines, tus cortinas…  tu casa se verá como nueva.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./alfombra.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./alfombra1.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./alfombra2.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cuadros en casa</title>
+      <link>/en/post/cuadros-en-casa/</link>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/en/post/cuadros-en-casa/</guid>
+      <description>&lt;h1 id=&#34;cuadros-en-casa&#34;&gt;&lt;strong&gt;CUADROS EN CASA&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Si queremos hacer un cambio nuestro hogar podemos reubicar cuadros y fotos, cambiar algún &lt;a href=&#34;http://www.turomarc.com/&#34;&gt;marco&lt;/a&gt; o exhibirlos de otra manera.
+En cuanto a la disposición hay muchas formas de agrupar cuadros, por temática, colores, si tienen el mismo marco y tamaño o si tienen diferentes orientaciones.
+Evite colocar cuadros en todas las paredes sin ningún orden, la mejor forma de colgar cuadros es generar áreas definidas.
+Una regla básica en distribución de cuadros es mantenerlos a la altura del observador. Se debería poder trazar una línea imaginaria que cruce por el medio de todos los cuadros, al nivel de los ojos.( entre 1,50 y 1,60m.) .
+También si los cuadros son grandes pueden colocarse en el suelo, tendencia que empezó hace algunos años y todavía perdura.
+Si vamos a colgar un cuadro sobre un mueble bajo (un sillón, cama, cómoda, chimenea, etc.) no debe quedar pegado al mueble, la relación siempre debe ser que el cuadro esté más cerca del mueble que del techo. Tener en cuenta que el cuadro colocado sobre un mueble nunca debe ser más ancho que el mueble. Si queremos lograr un diseño más dinámico entonces podemos desplazar el cuadro hacia uno de los laterales.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Colocación simétrica&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Esta distribución sugiere orden y es fácil de realizar.
+Hay simetría en la distribución de cuadros cuando podemos, dividir la distribución en dos partes iguales y opuestas mediante un corte horizontal o vertical. La distribución de cuadros en forma simétrica permite diferentes opciones: en línea horizontal o vertical, en doble o triple línea horizontal o vertical, formando figuras geométricas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Colocación en línea&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Los cuadros en línea son útiles para modificar la percepción de un espacio. En espacios estrechos y reducidos conviene colocar los cuadros verticalmente ya que una línea vertical de cuadros crea la ilusión óptica de un techo más alto. Las líneas horizontales son adecuadas para pasillos y áreas largas, también sobre muebles alargados, siguiendo la línea del mueble.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Agrupación por radiación&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Los cuadros “desordenados” con diferentes tamaños y temática, se agrupan generalmente colgando un primer cuadro central y los demás alrededor de este.
+Esta elección puede ser más creativa y normalmente produce un gran impacto visual, aunque es más arriesgada y debe ser armoniosa en su conjunto.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./1cuadro.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./cuadro_piso.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./cuadros_en_linea.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./cuadros_geometricos.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./cuadros_agrupados.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Un toque de color</title>
+      <link>/en/post/un-toque-de-color/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/en/post/un-toque-de-color/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;UN TOQUE DE COLOR&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;La &lt;a href=&#34;https://www.bruguer.es/es/color-del-2020-bruguer&#34;&gt;pintura&lt;/a&gt; es nuestra gran aliada para conseguir un cambio inmediato.
+Puedes darle más personalidad y estilo a tu salón pintando una de sus paredes en un color contrastante o de un tono más subido, dentro de la gama predominante, si no te atreves a tanto.&lt;/p&gt;
+&lt;p&gt;Y no sólo las paredes marcarán la diferencia, también puede ser ese mueble que compraste hace tiempo y que ya no te agrada tanto o una estantería que cambiaría radicalmente con un color vibrante para animar el ambiente o al revés, pintándola del mismo tono de la pared para que se camufle con ella.
+¿Y si cambias el color de las puertas o las ventanas? Puedes darle nueva vida pintándolas de blanco o gris oscuro o en un color que llame la atención.&lt;/p&gt;
+&lt;p&gt;También podemos pintar los armarios de la cocina o los &lt;a href=&#34;https://www.titanlux.es/es/productos/producto/pinturas-azulejos&#34;&gt;azulejos&lt;/a&gt; del baño.&lt;/p&gt;
+&lt;p&gt;Con un poco de habilidad y ganas podemos darle un toque de originalidad al ambiente. La única precaución es cubrir bien el espacio alrededor y utilizar cinta de pintor para definir la zona a pintar.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PIENSA, IMAGINA, PINTA!!!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./bcg_hall.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./diseno-interior-moderno-clasico-sala-estar-representacion-3d_33739-366.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./78994388_2254614394640094_5394439246868119552_n.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./habitacion-pared-roja-sofa_1048-1677.jpg&#34; alt=&#34;jpg&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

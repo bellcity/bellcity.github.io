@@ -85,45 +85,100 @@
   <url>
     <loc>/post/textiles/</loc>
     <lastmod>2019-12-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/post/textiles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/textiles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/post/textiles/"
+                />
   </url>
   
   <url>
     <loc>/post/cuadros-en-casa/</loc>
     <lastmod>2019-12-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/post/cuadros-en-casa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/cuadros-en-casa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/post/cuadros-en-casa/"
+                />
   </url>
   
   <url>
     <loc>/tags/decoracion/</loc>
     <lastmod>2019-12-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/tags/decoracion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/decoracion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/decoracion/"
+                />
   </url>
   
   <url>
     <loc>/tags/pintura/</loc>
     <lastmod>2019-12-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ca"
+                href="/ca/tags/pintura/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/pintura/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/tags/pintura/"
+                />
   </url>
   
   <url>
     <loc>/post/un-toque-de-color/</loc>
     <lastmod>2019-12-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ca"
-                href="/ca/post/writing-technical-content/"
+                href="/ca/post/un-toque-de-color/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/post/writing-technical-content/"
+                href="/en/post/un-toque-de-color/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/post/writing-technical-content/"
+                href="/post/un-toque-de-color/"
                 />
   </url>
   
